@@ -110,9 +110,6 @@ def printMatrix(matrix):
 
 
 if __name__=="__main__":
-    print 'Create a file called "sudoku_problem.txt"(without quotes) and input the sudoku matrix'
-    print 'Enter 0 for blank spaces and each number should be separated by a space and each row by a newline'
-    print 'Check the example included\n\n'
     
     matrix = [0 for i in xrange(9)]
     for i in xrange(0,9):
